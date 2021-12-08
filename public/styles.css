@@ -2,8 +2,19 @@
  * Minimal Reset
  */
 body {
-	margin: 0;
+	margin: 0
 }
+
+/* @media (prefers-color-scheme: dark) {
+	
+	body {
+
+		background-color: black;
+		color: yellow;
+
+	}
+}
+	/* darkmode */
 
 *,
 *::before,
@@ -11,3 +22,177 @@ body {
 	box-sizing: border-box;
 }
 
+/* @media (min-width: 500px) {
+	.grid {
+		grid-template-columns: repeat(8, 1fr);
+	}
+}
+
+	/* kann verwendet werden, wenn sich zB screen verändert!!!!! */
+
+.container {
+	width: 100vw;
+	height: 100vh;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 150px 100px 2fr 50px;
+}
+
+.headergrid {
+	display: flex;
+	background: rgb(243, 240, 242);
+	background-image: url(/public/images/ryan-schroeder-Gg7uKdHFb_c-unsplash.jpg);
+	object-position: center;
+	
+}
+
+.navgrid {
+	grid-column: span 5;
+	background-color: rgb(0, 0, 0);
+	display: grid;
+	color: white;
+	border-radius: 35px;
+	margin-left: 10px;
+	margin-right: 10px;
+	
+}
+
+
+	/* 
+	Enable burger menu
+	
+	grid-template-columns: 1fr;
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 300px;
+	transform: translateX(-300px); */
+}
+
+/* 
+
+.navgrid--open {
+	transform: translateX(0);
+} */
+
+.navdesign {
+	color: currentColor;
+	text-decoration: none;
+	outline: none;
+	
+}
+
+.navdesign:hover {
+	/* background: linear-gradient(#e66465, #9198e5); */
+	/* border-radius: 35px;
+	margin-left: 10px;
+	margin-right: 10px; */
+	background-color:rgba(114, 142, 172, 0.897)
+}
+
+@media (min-width: 500px) {
+	.navgrid {
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		display: grid;
+		position: unset;
+	}
+}
+
+
+
+.nav1 {
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: currentColor;
+	text-decoration: none;
+	outline: none;
+}
+
+.nav2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: currentColor;
+	text-decoration: none;
+	outline: none;
+}
+
+.nav3 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: currentColor;
+	text-decoration: none;
+	outline: none;
+}
+.nav4 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: currentColor;
+	text-decoration: none;
+	outline: none;
+	
+} 
+
+.contentgrid {
+	grid-column-end: span 4;
+	background: rgb(255, 255, 255);
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.footergrid {
+	background: rgb(3, 3, 3);
+	grid-column: span 5;
+	color: white;
+	text-align: center;
+}
+
+/* Burger Menu */
+
+/*
+
+.main-nav {
+	display: flex;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 300px;
+	background: orange;
+	_transform: translateX(-300)
+	transition: background 2s;
+}
+
+.main-nav__link {
+	display: block;
+	padding: 10px;
+	color: currentColor;
+	text-decoration: none;
+
+.main-nav__link {
+	background: rgba(0,0,0,0.2)
+
+
+.main-header: hover .main-nav {
+	transofrm: translateX(0);
+
+
+
+@media (min-width: 500px) {
+	.main {
+		flex-direction: unset;
+		position: unset;
+
+
+.main-nav__link:nth-child(1 // odd oder 2n + 1 //// gerade  /// 3n + 1 jedes dritte) {
+	background-color: grey;
+}
+
+
+
+*/
